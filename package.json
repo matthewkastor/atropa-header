@@ -1,6 +1,6 @@
 {
   "name": "atropa-header",
-  "version": "2013.09.29-141",
+  "version": "2013.09.29-238",
   "description": "Contains JavaScript utility functions for environment tests and support queries.",
   "main": "./src/atropa-header.js",
   "directories": {

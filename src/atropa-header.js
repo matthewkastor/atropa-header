@@ -1,7 +1,4 @@
-var atropa = {};
-
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
-
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 /*jslint
     indent: 4,
     maxerr: 50,
@@ -21,8 +18,7 @@ var atropa = {};
  *  ☭ Hial Atropa!! ☭
  * @namespace Container for all Glorious classes, functions, etc.
  */
-var atropa;
-atropa = {};
+var atropa = {};
 /**
  * Checks whether this class has been marked as unsupported and throws an 
  *  error if it has.

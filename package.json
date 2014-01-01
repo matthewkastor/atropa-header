@@ -1,47 +1,47 @@
 {
-    "name": "atropa-header",
-    "version": "2013.10.13",
-    "description": "Contains JavaScript utility functions for environment tests and support queries.",
-    "main": "./src/atropa-header.js",
-    "directories": {
-        "lib": "src",
-        "doc": "docs"
-    },
-    "devDependencies": {
-        "atropa-jsformatter": ">=0.1.2",
-        "atropa-jslint": ">=0.1.2",
-        "browserify": ">=2.29.1",
-        "jasmine-node": ">=1.11.0",
-        "jsdoc-toolkit": "git+https://github.com/matthewkastor/node-jsdoc-toolkit.git#fix-tests"
-    },
-    "scripts": {
-        "test": "jasmine-node specs/",
-        "buildBrowserModule": "node dev/browserify.js",
-        "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
-        "lint": "atropa-jslint ./src/atropa-header.js",
-        "srcFormat": "atropa-jsformatter ./src/atropa-header.js ./src/atropa-header.js",
-        "pretest": "node dev/browserify.js",
-        "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s src/"
-    },
-    "homepage": "https://github.com/matthewkastor/atropa-header/",
-    "bugs": "https://github.com/matthewkastor/atropa-header/issues",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/matthewkastor/atropa-header.git"
-    },
-    "keywords": [
-        "atropa-header",
-        "atropa"
-    ],
-    "author": {
-        "name": "Matthew Kastor",
-        "email": "matthewkastor@gmail.com",
-        "url": "https://plus.google.com/100898583798552211130"
-    },
-    "licenses": [
-        {
-            "type": "gpl-3.0",
-            "url": "http://www.gnu.org/licenses/gpl-3.0-standalone.html"
-        }
-    ]
+  "name": "atropa-header",
+  "version": "2013.11.0",
+  "description": "Contains JavaScript utility functions for environment tests and support queries.",
+  "main": "./src/atropa-header.js",
+  "directories": {
+    "lib": "src",
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "atropa-jsformatter": ">=0.1.2",
+    "atropa-jslint": ">=0.1.2",
+    "browserify": ">=2.29.1",
+    "jasmine-node": ">=1.11.0",
+    "jsdoc-toolkit": "git+https://github.com/matthewkastor/node-jsdoc-toolkit.git#fix-tests"
+  },
+  "scripts": {
+    "test": "jasmine-node specs/",
+    "buildBrowserModule": "node dev/browserify.js",
+    "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
+    "lint": "atropa-jslint ./src/atropa-header.js",
+    "srcFormat": "atropa-jsformatter ./src/atropa-header.js ./src/atropa-header.js",
+    "pretest": "node dev/browserify.js",
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s src/"
+  },
+  "homepage": "https://github.com/matthewkastor/atropa-header/",
+  "bugs": "https://github.com/matthewkastor/atropa-header/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewkastor/atropa-header.git"
+  },
+  "keywords": [
+    "atropa-header",
+    "atropa"
+  ],
+  "author": {
+    "name": "Matthew Kastor",
+    "email": "matthewkastor@gmail.com",
+    "url": "https://plus.google.com/100898583798552211130"
+  },
+  "licenses": [
+    {
+      "type": "gpl-3.0",
+      "url": "http://www.gnu.org/licenses/gpl-3.0-standalone.html"
+    }
+  ]
 }

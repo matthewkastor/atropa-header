@@ -1,6 +1,6 @@
 {
   "name": "atropa-header",
-  "version": "2014.1.2",
+  "version": "2014.2.1",
   "description": "Contains JavaScript utility functions for environment tests and support queries.",
   "main": "./src/atropa-header.js",
   "directories": {
@@ -21,7 +21,7 @@
     "lint": "atropa-jslint ./src/atropa-header.js",
     "srcFormat": "atropa-jsformatter ./src/atropa-header.js ./src/atropa-header.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-header/",
   "bugs": "https://github.com/matthewkastor/atropa-header/issues",
